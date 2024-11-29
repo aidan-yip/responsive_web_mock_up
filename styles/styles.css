@@ -2,4 +2,49 @@ h1 {
   font-family: "Geist", sans-serif;
 }
 
+h2 {
+  font-family: "Geist", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: -0.015rem;
+}
+
+p.m-body {
+  font-family: "Geist", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: -0.0125rem;
+}
+
+p.l-body {
+  font-family: "Geist", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: -0.0125rem;
+}
+
+.section_7_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+  width: 100%;
+  height: auto;
+  background-color: #7575e8;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=styles.css.map */
