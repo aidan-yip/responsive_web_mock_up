@@ -44,13 +44,21 @@ p.m-body {
 }
 
 p.l-body {
-  font-family: $main-font;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.75rem;
-  letter-spacing: -0.0125rem;
+    font-family: $main-font;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: -0.0125rem;
 }
+
+p.mono-body {
+    font-family: $sub-font-1;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 1.8rem */
+  }
 
 .title_pre_header {
   font-family: $main-font;

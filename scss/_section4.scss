@@ -1,1 +1,17 @@
 @use "_variables" as *;
+@use "_base-styles" as *;
+
+section.section-4 {
+    background-color: $green;
+    height: $height;
+    width: $width;
+    border-radius: $section-border-radius;
+    padding: 2rem 1rem;
+}
+
+.section-4 article {
+    background-color: #d5f7e7;
+    border-radius: $section-border-radius;
+    padding: 1.5rem;
+    gap: 1rem;
+}
