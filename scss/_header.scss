@@ -1,0 +1,46 @@
+@use "_variables" as *;
+
+// header Aidan
+
+header {
+  position: fixed;
+  z-index: 1000;
+  width: $width;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.625rem;
+}
+
+nav {
+  width: 25rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.7rem 1rem;
+  border-radius: 2rem;
+  background-color: #ffffff7e;
+  border: #ffffff75 1px solid;
+  backdrop-filter: blur(10px);
+  //legacy chrome safari support
+  -webkit-backdrop-filter: blur(10px);
+  color: $pure_white;
+}
+
+.nav_button_link,
+.nav_button_link:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 2.5rem;
+  font-family: $main-font;
+  text-decoration: none;
+  background-color: $pure_black;
+  color: $pure_white;
+  border-radius: 2rem;
+}
+
+// header Aidan
