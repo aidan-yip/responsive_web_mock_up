@@ -28,3 +28,25 @@ section.section-4 {
 .section-4-text-wrapper h2, p {
     max-height: 6rem;
 }
+
+.section-4-button-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.section-4-button-wrapper a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .5rem 1rem;
+    background-color: #ffffff60;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    text-decoration: none;
+    color: black;
+    box-shadow: #00000000 0px 0px 0px 0px, #00000000 0px 0px 0px 0px, #ffffff80 0px 2px 2px 0px, #00000033 0px 3px 3px 0px;
+}

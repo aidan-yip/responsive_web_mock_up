@@ -201,6 +201,28 @@ section.section-4 {
   max-height: 6rem;
 }
 
+.section-4-button-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.section-4-button-wrapper a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.3764705882);
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  text-decoration: none;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.5019607843) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 3px 0px;
+}
+
 .flex_container_sec7 {
   display: flex;
   flex-direction: column;
