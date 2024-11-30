@@ -1,1 +1,28 @@
 @use "_variables" as *;
+@use "_base-styles" as *;
+
+
+section.section-3 {
+    background-color: $yellow;
+    height: $height;
+    width: $width;
+    border-radius: $section-border-radius;
+    padding-bottom: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+
+}
+
+.section-3-article-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.section-3 article {
+    background-color: #ffeecc;
+    padding: 1.5rem;
+    border-radius: $section-border-radius;
+}

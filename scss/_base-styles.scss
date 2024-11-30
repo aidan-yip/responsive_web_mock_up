@@ -37,3 +37,11 @@ p.l-body {
     line-height: 1.75rem;
     letter-spacing: -0.0125rem;
 }
+
+p.mono-body {
+    font-family: $sub-font-1;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 1.8rem */
+  }
