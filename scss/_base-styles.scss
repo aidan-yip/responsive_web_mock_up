@@ -1,49 +1,76 @@
 @use "_variables" as *;
 
+//root
+
+//remove default margin and padding from all elements to reset browser defaults
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//typography
+
 h1 {
-    font-family: $main-font;
+  font-family: $main-font;
 }
 
 h2 {
-    font-family: $main-font;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 3rem;
+  font-family: $main-font;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
 }
 
 h3 {
-    font-family: $main-font;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 2rem;
-    letter-spacing: -0.015rem;
+  font-family: $main-font;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: -0.015rem;
 }
 
 p.m-body {
-    font-family: $main-font;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.75rem;
-    letter-spacing: -0.0125rem;
+  font-family: $main-font;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: -0.0125rem;
 }
 
 p.l-body {
-    font-family: $main-font;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.75rem;
-    letter-spacing: -0.0125rem;
+  font-family: $main-font;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: -0.0125rem;
 }
 
 .title_pre_header {
-    font-family: $main-font;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5rem;
-    letter-spacing: 0.015rem;
+  font-family: $main-font;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.015rem;
+}
+
+//flex containers
+
+.flex_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex_start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }

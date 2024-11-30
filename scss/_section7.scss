@@ -4,6 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: $width;
+}
+
+.flex_start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .section_7_container {
@@ -17,11 +24,12 @@
   color: $pure_black;
 }
 
-.q_label {
-  width: 20rem;
+.quest_label {
+  width: 100%;
   background-color: $pure_white;
   opacity: 0.8;
   padding: 1.5rem;
+  margin: 0.5rem;
   border-radius: 1.5rem;
   font-family: $main-font;
 }
