@@ -1,1 +1,66 @@
 @use "_variables" as *;
+
+// BASE SECTION STYLES //
+
+
+.section-2 {
+    background-color: $burgundy;
+    height: $height;
+}
+
+
+.section-2 h1{
+    text-align: center;
+    color: #eee;
+}
+.section-2 p {
+    text-align: center;
+    color: #eee;
+    // font-weight: 500;
+}
+
+
+// BASE CONTENT STYLES //
+
+
+.code-title {
+    background-color: #2E1B2A;
+    border-radius: 10px;
+    font-family: "Geist Mono";
+}
+
+
+.section-2 .code-1 {
+    width: 100%; // Make the div take full width
+    height: auto; // Maintain aspect ratio
+}
+
+
+.section-2 .code-img {
+    width: 100%; // Make the image take full width of the parent div
+    height: auto; // Maintain aspect ratio
+    object-fit: cover; // Cover the area without distortion
+}
+
+
+.code-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+
+.code-menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+.code-menu li {
+    list-style: none;
+    padding: 0 1rem;
+    color: #eee;
+    font-family: "Geist";
+}

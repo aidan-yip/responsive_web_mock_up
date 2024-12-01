@@ -119,6 +119,58 @@ nav {
   border-radius: 2rem;
 }
 
+.section-2 {
+  background-color: #372333;
+  height: auto;
+}
+
+.section-2 h1 {
+  text-align: center;
+  color: #eee;
+}
+
+.section-2 p {
+  text-align: center;
+  color: #eee;
+}
+
+.code-title {
+  background-color: #2E1B2A;
+  border-radius: 10px;
+  font-family: "Geist Mono";
+}
+
+.section-2 .code-1 {
+  width: 100%;
+  height: auto;
+}
+
+.section-2 .code-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.code-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.code-menu ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.code-menu li {
+  list-style: none;
+  padding: 0 1rem;
+  color: #eee;
+  font-family: "Geist";
+}
+
 section.section-3 {
   background-color: #f6c654;
   height: auto;
