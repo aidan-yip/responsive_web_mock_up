@@ -43,57 +43,57 @@
 
 
 .links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5rem;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  
 }
 
 /* List styling */
 .links-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .links-list {
-    list-style: none; 
-    display: flex; 
-    gap: 1rem; 
-    padding: 0;
-  }
-  
-  .link-item-1 .link {
-    display: inline-block;
-    padding: 1.2rem 5rem; 
-    background-color: black; 
-    color: white; 
-    text-decoration: none; 
-    border: 2px solid black; 
-    border-radius: 62.4375rem;
-    transition: background-color 0.3s ease, color 0.3s ease; 
-  }
-  
-  .link-item-1 .link:hover {
-    background-color: #282626;
-    color: #ffffff;
-  }
-  
-  .link-item-2 .link {
-    display: inline-block;
-    padding: 1.2rem 5rem;
-    background-color: white; 
-    color: black; 
-    text-decoration: none; 
-    border: 2px solid black; 
-    border-radius: 62.4375rem; 
-    transition: background-color 0.3s ease, color 0.3s ease; 
-  }
-  
-  .link-item-2 .link:hover {
-    background-color: #f3f0f0;
-    color: #000000;
-  }
+  list-style: none; 
+  display: flex; 
+  gap: 1rem; 
+  padding: 0;
+}
+
+.link-item-1 .link {
+  display: inline-block;
+  padding: 1.2rem 5rem; 
+  background-color: black; 
+  color: white; 
+  text-decoration: none; 
+  border: 2px solid black; 
+  border-radius: 62.4375rem;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.link-item-1 .link:hover {
+  background-color: #282626;
+  color: #ffffff;
+}
+
+.link-item-2 .link {
+  display: inline-block;
+  padding: 1.2rem 5rem;
+  background-color: white; 
+  color: black; 
+  text-decoration: none; 
+  border: 2px solid black; 
+  border-radius: 62.4375rem; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.link-item-2 .link:hover {
+  background-color: #f3f0f0;
+  color: #000000;
+}
   

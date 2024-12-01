@@ -1,19 +1,13 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 3 | @use "_header";
- *   | ^^^^^^^^^^^^^^
- *   '
- *   scss\styles.scss 3:1  root stylesheet */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", "Monaco, Inconsolata", "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @use \"_header\";\d\a   \2502  ^^^^^^^^^^^^^^\a   \2575 \a   scss\\styles.scss 3:1  root stylesheet";
+h1 {
+  font-family: "Geist", sans-serif;
 }
 
 h2 {
@@ -124,6 +118,98 @@ nav {
   background-color: #000000;
   color: #FFFFFF;
   border-radius: 2rem;
+}
+
+/* General section styling */
+.section-1 {
+  font-family: "Geist", sans-serif;
+  background-color: #E8E8FA;
+  height: auto;
+  width: 100%;
+  border-radius: 1.5rem;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Title styling */
+.section-title {
+  font-family: "Geist", sans-serif;
+  font-size: 72px;
+  color: #000000;
+  text-align: center;
+  line-height: 5.5rem;
+  margin-top: 7rem;
+  max-width: 48rem;
+}
+
+/* Description styling */
+.section-description {
+  font-family: "Geist", sans-serif;
+  color: #000000;
+  text-align: center;
+  margin-top: 1.3rem;
+  line-height: 28px;
+  max-width: 48rem;
+  font-size: 1.25rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+/* List styling */
+.links-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.links-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+.link-item-1 .link {
+  display: inline-block;
+  padding: 1.2rem 5rem;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 62.4375rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link-item-1 .link:hover {
+  background-color: #282626;
+  color: #ffffff;
+}
+
+.link-item-2 .link {
+  display: inline-block;
+  padding: 1.2rem 5rem;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 62.4375rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link-item-2 .link:hover {
+  background-color: #f3f0f0;
+  color: #000000;
 }
 
 .section-2 {
