@@ -156,12 +156,17 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 0;
+  text-align: left;
 }
 
 .code-menu ul {
   display: flex;
   padding: 0;
   margin: 0;
+  background-color: #2E1B2A;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+  gap: 2rem;
 }
 
 .code-menu li {
@@ -169,6 +174,10 @@ nav {
   padding: 0 1rem;
   color: #eee;
   font-family: "Geist";
+  background-color: #584955;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 1px 1px rgba(254, 254, 254, 0.579);
 }
 
 section.section-3 {
