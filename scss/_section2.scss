@@ -6,6 +6,8 @@
 .section-2 {
     background-color: $burgundy;
     height: $height;
+    border-top-left-radius: $section-border-radius;
+    border-top-right-radius: $section-border-radius;
 }
 
 
@@ -22,11 +24,23 @@
 
 // BASE CONTENT STYLES //
 
+.content-container1{
+
+}
+
 
 .code-title {
     background-color: #2E1B2A;
     border-radius: 10px;
     font-family: "Geist Mono";
+    max-width: 300px;
+    margin: 0 auto; 
+    padding: 1rem; 
+    
+}
+.code-title p{
+    text-align: left;
+    padding-left: 2rem;
 }
 
 
@@ -48,7 +62,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0;
-    text-align: left;
+    
 }
 
 
@@ -71,4 +85,11 @@
     border-radius: 20px;
     padding: 0.5rem 1rem;
     box-shadow: 0 1px 1px rgba(254, 254, 254, 0.579);
+}
+
+.code-menu li a{
+    text-decoration: none;
+}
+.code-menu li a:visited {
+    color: inherit; 
 }

@@ -122,6 +122,8 @@ nav {
 .section-2 {
   background-color: #372333;
   height: auto;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 
 .section-2 h1 {
@@ -138,6 +140,14 @@ nav {
   background-color: #2E1B2A;
   border-radius: 10px;
   font-family: "Geist Mono";
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.code-title p {
+  text-align: left;
+  padding-left: 2rem;
 }
 
 .section-2 .code-1 {
@@ -156,7 +166,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 0;
-  text-align: left;
 }
 
 .code-menu ul {
@@ -178,6 +187,14 @@ nav {
   border-radius: 20px;
   padding: 0.5rem 1rem;
   box-shadow: 0 1px 1px rgba(254, 254, 254, 0.579);
+}
+
+.code-menu li a {
+  text-decoration: none;
+}
+
+.code-menu li a:visited {
+  color: inherit;
 }
 
 section.section-3 {
