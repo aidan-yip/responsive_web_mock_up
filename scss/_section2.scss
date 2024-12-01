@@ -1,1 +1,95 @@
 @use "_variables" as *;
+
+// BASE SECTION STYLES //
+
+
+.section-2 {
+    background-color: $burgundy;
+    height: $height;
+    border-top-left-radius: $section-border-radius;
+    border-top-right-radius: $section-border-radius;
+}
+
+
+.section-2 h1{
+    text-align: center;
+    color: #eee;
+}
+.section-2 p {
+    text-align: center;
+    color: #eee;
+    // font-weight: 500;
+}
+
+
+// BASE CONTENT STYLES //
+
+.content-container1{
+
+}
+
+
+.code-title {
+    background-color: #2E1B2A;
+    border-radius: 10px;
+    font-family: "Geist Mono";
+    max-width: 300px;
+    margin: 0 auto; 
+    padding: 1rem; 
+    
+}
+.code-title p{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+
+.section-2 .code-1 {
+    width: 100%; // Make the div take full width
+    height: auto; // Maintain aspect ratio
+}
+
+
+.section-2 .code-img {
+    width: 100%; // Make the image take full width of the parent div
+    height: auto; // Maintain aspect ratio
+    object-fit: cover; // Cover the area without distortion
+}
+
+
+.code-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    
+}
+
+
+.code-menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #2E1B2A;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    gap: 2rem;
+}
+
+.code-menu li {
+    list-style: none;
+    padding: 0 1rem;
+    color: #eee;
+    font-family: "Geist";
+    background-color: #584955;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 1px 1px rgba(254, 254, 254, 0.579);
+}
+
+.code-menu li a{
+    text-decoration: none;
+}
+.code-menu li a:visited {
+    color: inherit; 
+}
