@@ -29,6 +29,7 @@
 
 .answer_label {
   width: 100%;
+  height: auto;
   background-color: $pure_white;
   opacity: 0.8;
   padding: 1.7rem;
@@ -38,7 +39,8 @@
   box-shadow: 0px 3px 10px #000000b3;
 }
 
-.answer_body {
+p.answer_body {
+  max-height: none;
   margin-top: 1rem;
 }
 
