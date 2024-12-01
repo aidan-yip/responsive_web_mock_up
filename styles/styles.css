@@ -188,7 +188,7 @@ nav {
   text-decoration: none;
   border: 2px solid black;
   border-radius: 62.4375rem;
-  transition: 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .link-item-1 .link:hover {
