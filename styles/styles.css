@@ -138,7 +138,6 @@ nav {
 .section-2 p {
   text-align: center;
   color: #eee;
-  padding-bottom: 1rem;
 }
 
 .code-title {
@@ -148,6 +147,7 @@ nav {
   max-width: 300px;
   margin: 0 auto;
   padding: 1rem;
+  margin-top: 1rem;
 }
 
 .code-title p {
@@ -209,10 +209,13 @@ nav {
   padding: 0 1rem;
   color: #eee;
   font-family: "Geist";
-  background-color: #584955;
   border-radius: 20px;
   padding: 0.5rem 1rem;
+}
+
+.active-menu {
   box-shadow: 0 1px 1px rgba(254, 254, 254, 0.579);
+  background-color: #584955;
 }
 
 .code-menu li a {
