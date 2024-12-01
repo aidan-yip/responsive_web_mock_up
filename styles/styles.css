@@ -199,7 +199,7 @@ nav {
 }
 
 section.section-3 {
-  background-color: #f6c654;
+  background-color: #ffc848;
   height: auto;
   width: 100%;
   border-radius: 1.5rem;
@@ -253,7 +253,7 @@ section.section-3 {
   }
 }
 section.section-4 {
-  background-color: #71da93;
+  background-color: #58e585;
   height: auto;
   width: 100%;
   border-radius: 1.5rem;
@@ -323,7 +323,7 @@ section.section-4 {
   padding: 1rem;
   width: 100%;
   height: auto;
-  background-color: #7575e8;
+  background-color: #7474f5;
   color: #000000;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
@@ -335,6 +335,10 @@ section.section-4 {
 
 .title_post_header {
   margin-top: 1rem;
+}
+
+.quest_label {
+  cursor: pointer;
 }
 
 .answer_label {
