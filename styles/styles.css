@@ -120,6 +120,84 @@ nav {
   border-radius: 2rem;
 }
 
+.section-2 {
+  background-color: #372333;
+  height: auto;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.section-2 h1 {
+  text-align: center;
+  color: #eee;
+}
+
+.section-2 p {
+  text-align: center;
+  color: #eee;
+}
+
+.code-title {
+  background-color: #2E1B2A;
+  border-radius: 10px;
+  font-family: "Geist Mono";
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.code-title p {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.section-2 .code-1 {
+  width: 100%;
+  height: auto;
+}
+
+.section-2 .code-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.code-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.code-menu ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-color: #2E1B2A;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+  gap: 2rem;
+}
+
+.code-menu li {
+  list-style: none;
+  padding: 0 1rem;
+  color: #eee;
+  font-family: "Geist";
+  background-color: #584955;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 1px 1px rgba(254, 254, 254, 0.579);
+}
+
+.code-menu li a {
+  text-decoration: none;
+}
+
+.code-menu li a:visited {
+  color: inherit;
+}
+
 section.section-3 {
   background-color: #f6c654;
   height: auto;
