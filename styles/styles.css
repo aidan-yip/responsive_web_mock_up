@@ -18,7 +18,7 @@ h2 {
   line-height: 4rem;
 }
 
-@media (min-width: 54em) {
+@media (min-width: 64em) {
   h2 {
     font-size: 3.75rem;
   }
@@ -234,7 +234,6 @@ section.section-3 {
   background-color: #ffeecc;
   padding: 1.5rem;
   border-radius: 1.5rem;
-  height: 12.5rem;
 }
 
 .section-3 article p {
@@ -261,11 +260,33 @@ section.section-4 {
   margin: 0 auto;
 }
 
+.section-4-article-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .section-4 article {
   background-color: #d5f7e7;
   border-radius: 1.5rem;
   padding: 1.5rem;
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 64em) {
+  .section-4 article {
+    width: 50rem;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+}
+.section-4 article h3 {
+  margin-bottom: 1rem;
+}
+
+.section-4 article p {
+  margin-bottom: 3rem;
 }
 
 .section-4-text-wrapper {
@@ -288,6 +309,7 @@ section.section-4 {
 }
 
 .section-4-button-wrapper a {
+  height: 2.75rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
