@@ -8,25 +8,29 @@
     height: $height;
     border-top-left-radius: $section-border-radius;
     border-top-right-radius: $section-border-radius;
+    padding: 1rem 1rem;
 }
 
 
 .section-2 h1{
     text-align: center;
     color: #eee;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .section-2 p {
     text-align: center;
     color: #eee;
     // font-weight: 500;
+    padding-bottom: 1rem;
 }
 
 
 // BASE CONTENT STYLES //
 
-.content-container1{
-
-}
+// .content-container1{
+//     padding: 1rem 1rem;
+// }
 
 
 .code-title {
@@ -41,28 +45,47 @@
 .code-title p{
     text-align: left;
     padding-left: 2rem;
+    color: #C3BEC2;
+}
+
+.component {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-.section-2 .code-1 {
+.code-1 {
     width: 100%; // Make the div take full width
     height: auto; // Maintain aspect ratio
 }
 
 
-.section-2 .code-img {
-    width: 100%; // Make the image take full width of the parent div
-    height: auto; // Maintain aspect ratio
-    object-fit: cover; // Cover the area without distortion
+.code-img {
+    height: auto; 
+    object-fit: contain; 
+    max-width: 100%;
 }
 
+.content-1 {
+    width: 100%;
+    height: auto;
+}
 
+.content-img {
+    height: auto; 
+    object-fit: contain; 
+    max-width: 100%;
+}
+
+// MENU STYLES //
 .code-menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0;
-    
+    width: 100%;
 }
 
 
@@ -74,6 +97,7 @@
     padding: 1rem 1rem;
     border-radius: 30px;
     gap: 2rem;
+    overflow: hidden;
 }
 
 .code-menu li {
