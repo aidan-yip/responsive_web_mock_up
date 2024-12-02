@@ -8,12 +8,15 @@
     height: $height;
     border-top-left-radius: $section-border-radius;
     border-top-right-radius: $section-border-radius;
+    padding: 1rem 1rem;
 }
 
 
-.section-2 h1{
+.section-2 h2{
     text-align: center;
     color: #eee;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .section-2 p {
     text-align: center;
@@ -24,9 +27,9 @@
 
 // BASE CONTENT STYLES //
 
-.content-container1{
-
-}
+// .content-container1{
+//     padding: 1rem 1rem;
+// }
 
 
 .code-title {
@@ -36,33 +39,52 @@
     max-width: 300px;
     margin: 0 auto; 
     padding: 1rem; 
-    
+    margin-top: 1rem;
 }
 .code-title p{
     text-align: left;
     padding-left: 2rem;
+    color: #C3BEC2;
+}
+
+.component {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80rem;
+
 }
 
 
-.section-2 .code-1 {
-    width: 100%; // Make the div take full width
+.code-1 {
     height: auto; // Maintain aspect ratio
 }
 
 
-.section-2 .code-img {
-    width: 100%; // Make the image take full width of the parent div
-    height: auto; // Maintain aspect ratio
-    object-fit: cover; // Cover the area without distortion
+.code-img {
+    height: auto; 
+    object-fit: contain; 
+    max-width: 100%;
 }
 
+.content-1 {
+    height: auto;
+}
 
+.content-img {
+    height: auto; 
+    object-fit: contain; 
+    max-width: 100%;
+}
+
+// MENU STYLES //
 .code-menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0;
-    
+    width: 100%;
 }
 
 
@@ -74,6 +96,7 @@
     padding: 1rem 1rem;
     border-radius: 30px;
     gap: 2rem;
+    overflow: hidden;
 }
 
 .code-menu li {
@@ -81,10 +104,14 @@
     padding: 0 1rem;
     color: #eee;
     font-family: "Geist";
-    background-color: #584955;
     border-radius: 20px;
     padding: 0.5rem 1rem;
+    
+}
+
+.active-menu {
     box-shadow: 0 1px 1px rgba(254, 254, 254, 0.579);
+    background-color: #584955;
 }
 
 .code-menu li a{
@@ -92,4 +119,19 @@
 }
 .code-menu li a:visited {
     color: inherit; 
+}
+
+@media(min-width: 64em){
+    .component{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section-2 h2{
+        padding-left: 8rem ;
+        padding-right: 8rem ;
+    }
+
 }

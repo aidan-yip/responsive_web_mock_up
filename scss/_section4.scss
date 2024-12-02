@@ -10,23 +10,58 @@ section.section-4 {
     margin: 0 auto;
 }
 
+.section-4-article-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
 .section-4 article {
     background-color: #d5f7e7;
     border-radius: $section-border-radius;
     padding: 1.5rem;
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
+
+
+@media(min-width: 64em){
+    .section-4 article {
+        width: 50rem;
+        margin: 0 auto;
+        padding: 3rem;
+    }
+
+
+
+}
+
+.section-4 article h3{
+    margin-bottom: 1rem;
+}
+
+.section-4 article p{
+    margin-bottom: 3rem;
+}
+
 
 .section-4-text-wrapper {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     text-align: center;
-    margin-bottom: 2rem;
+    max-width: 48rem;
+    margin: 2rem auto;
 }
 
-.section-4-text-wrapper h2, p {
-    max-height: 6rem;
+.section-4-text-wrapper h2, .section-4-text-wrapper p {
+    max-width: 32rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-4-text-wrapper a {
+    color: black;
 }
 
 .section-4-button-wrapper {
@@ -37,8 +72,10 @@ section.section-4 {
 }
 
 .section-4-button-wrapper a {
+    height: 2.75rem;
     display: flex;
     flex-wrap: wrap;
+    gap: 2px;
     justify-content: center;
     padding: .5rem 1rem;
     background-color: #ffffff60;
@@ -50,3 +87,4 @@ section.section-4 {
     color: black;
     box-shadow: #00000000 0px 0px 0px 0px, #00000000 0px 0px 0px 0px, #ffffff80 0px 2px 2px 0px, #00000033 0px 3px 3px 0px;
 }
+
