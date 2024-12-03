@@ -142,6 +142,10 @@ nav {
   color: #eee;
 }
 
+.content-container1 {
+  display: block;
+}
+
 .code-title {
   background-color: #2E1B2A;
   border-radius: 10px;
@@ -150,12 +154,21 @@ nav {
   margin: 0 auto;
   padding: 1rem;
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .code-title p {
   text-align: left;
-  padding-left: 1rem;
   color: #C3BEC2;
+}
+
+.copy-icon {
+  max-width: 1rem;
+  background-color: #251622;
+  padding-bottom: 1rem;
+  border-radius: 5px;
 }
 
 .component {
@@ -250,6 +263,10 @@ nav {
     padding-right: 40rem;
   }
 }
+.content-container2 {
+  display: none;
+}
+
 section.section-3 {
   background-color: #ffc848;
   height: auto;
