@@ -405,6 +405,16 @@ section.section-4 {
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.5019607843) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 3px 0px;
 }
 
+/* card scroll animation */
+.section-4 article {
+  position: sticky;
+  top: 0;
+}
+
+.space {
+  height: 90vh;
+}
+
 .flex_container_sec6 {
   display: flex;
   flex-direction: column;
