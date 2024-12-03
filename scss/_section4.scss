@@ -88,3 +88,14 @@ section.section-4 {
     box-shadow: #00000000 0px 0px 0px 0px, #00000000 0px 0px 0px 0px, #ffffff80 0px 2px 2px 0px, #00000033 0px 3px 3px 0px;
 }
 
+/* card scroll animation */
+.section-4 article {
+	position: sticky;
+	top: 0;
+  }
+
+
+.space {
+	height: 90vh;
+  }
+  
