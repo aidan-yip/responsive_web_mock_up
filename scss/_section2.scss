@@ -26,10 +26,14 @@
 
 
 // BASE CONTENT STYLES //
+// content displays
+.content-container1,
+.content-container2 {
+    display: none;
+}
 
-.content-container1{
-    display: block;
-
+.content-container1 {
+    display: block; /* Default container to show */
 }
 
 
@@ -44,7 +48,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 .code-title p{
     text-align: left;
@@ -53,11 +56,12 @@
 }
 
 .copy-icon {
-    max-width: 1rem;
+    max-width: 2rem;
     background-color: #251622;
     padding-bottom: 1rem;
+    padding-left: 1rem;
     border-radius: 5px;
-    
+    padding: 0.25rem;
 }
 
 .component {
@@ -155,13 +159,13 @@
 
     .code-title{
         margin-top: 3rem;
-        padding-left: 0;
+        padding-left: 1rem;
         padding-right: 40rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
 }
 
 // CONTENT 2 STYLES
-.content-container2{
-    display: none;
-}

@@ -1,11 +1,27 @@
 // section 2 menu
+// menu buttons
 const menu = document.querySelector('.code-menu')
 const menuItems = document.querySelectorAll('.code-menu li')
 
+// content sections
+const contentContainers = document.querySelectorAll('.content-container1, .content-container2')
+
+// show content 1 by default
+document.querySelector('.content-container1').style.display = "block"
+
+
 menuItems.forEach(item => {
     item.addEventListener('click', ()=> {
+        // remove active-menu class from all menu items
         menuItems.forEach(i => i.classList.remove('active-menu'))
+        // add active menu to clicked item
         item.classList.add('active-menu')
+        // get target container for clicked item
+        const target = item.getAttribute('data-target')
+        // hide containers
+        contentContainers.forEach(container => container.style.display = 'none');
+        // show targeted container
+        document.querySelector(`.${target}`).style.display = 'block'
     }) 
 })
 
