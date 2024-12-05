@@ -5,9 +5,14 @@ section.section-4 {
     background-color: $green;
     height: $height;
     width: $width;
-    border-radius: $section-border-radius;
-    padding: 2rem 1rem;
-    margin: 0 auto;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    padding-bottom: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    margin: 0 auto -2rem ;
+    z-index: 4;
 }
 
 .section-4-article-wrapper {
@@ -108,8 +113,17 @@ section.section-4 {
 
 /* card scroll animation */
 
+// .section-4 {
+//     position: relative;
+// }
+
+// .section-4-contents-wrapper {
+//     position: sticky;
+//     top: 0;
+// }
+
 
 .section-4 article {
 	position: sticky;
     top: 0;
-} 
+}

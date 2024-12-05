@@ -37,9 +37,6 @@ cardsContainer.style.setProperty('--cards-count', cards.length);
 cardsContainer.style.setProperty('--card-height', `${cards[0].clientHeight}px`);
 
 Array.from(cards).forEach((card, index) => {
-  const offsetTop = 20 + index * 20;
-  card.style.paddingTop = `${offsetTop}px`;
-
   if (index === cards.length - 1) {
     return;
   }
