@@ -369,12 +369,14 @@ section.section-3 {
   background-color: #ffc848;
   height: auto;
   width: 100%;
-  border-radius: 1.5rem;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
   padding-bottom: 6rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 2rem;
-  margin: 0 auto;
+  margin: 0 auto -2rem;
+  z-index: 3;
 }
 
 .section-3-text-wrapper {
@@ -426,9 +428,14 @@ section.section-4 {
   background-color: #3cdd8c;
   height: auto;
   width: 100%;
-  border-radius: 1.5rem;
-  padding: 2rem 1rem;
-  margin: 0 auto;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+  padding-bottom: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  margin: 0 auto -2rem;
+  z-index: 4;
 }
 
 .section-4-article-wrapper {
