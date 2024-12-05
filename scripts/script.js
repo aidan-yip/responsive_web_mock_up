@@ -8,6 +8,10 @@ const contentContainers = document.querySelectorAll('.content-container1, .conte
 
 // show content 1 by default
 document.querySelector('.content-container1').style.display = "block"
+document.querySelector('.content-container2').style.display = "none"
+document.querySelector('.content-container3').style.display = "none"
+document.querySelector('.content-container4').style.display = "none"
+
 
 
 menuItems.forEach(item => {
@@ -16,12 +20,18 @@ menuItems.forEach(item => {
         menuItems.forEach(i => i.classList.remove('active-menu'))
         // add active menu to clicked item
         item.classList.add('active-menu')
-        // get target container for clicked item
-        const target = item.getAttribute('data-target')
-        // hide containers
-        contentContainers.forEach(container => container.style.display = 'none');
-        // show targeted container
-        document.querySelector(`.${target}`).style.display = 'block'
+
+        const targetId = item.getAttribute('data-target')
+        contentContainers.forEach(container => {
+          container.style.display = 'none'
+        })
+        
+        if(targetId){
+          const targetContainer = document.querySelector(`.${targetId}`)
+          if(targetContainer){
+            targetContainer.style.display = 'block' 
+          }
+        }
     }) 
 })
 
