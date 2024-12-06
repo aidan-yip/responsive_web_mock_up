@@ -1,6 +1,6 @@
 @use "_variables" as *;
 
-// BASE SECTION STYLES //
+/* // BASE SECTION STYLES // */
 
 
 .section-2 {
@@ -9,7 +9,10 @@
     border-top-left-radius: $section-border-radius;
     border-top-right-radius: $section-border-radius;
     padding: 1rem 1rem;
+    margin: 0 auto -2rem ;
+    z-index: 4;        //section-3 z-index is 3
 }
+
 
 
 .section-2 h2{
@@ -25,10 +28,11 @@
 }
 
 
-// BASE CONTENT STYLES //
-// content displays
-.content-container1,
-.content-container2 {
+/* // BASE CONTENT STYLES //
+// content displays */
+.content-container2, 
+.content-container3, 
+.content-container4 {
     display: none;
 }
 
@@ -75,7 +79,7 @@
 
 
 .code-1 {
-    height: auto; // Maintain aspect ratio
+    height: auto; 
 }
 
 
@@ -95,13 +99,14 @@
     max-width: 100%;
 }
 
-// MENU STYLES //
+/* // MENU STYLES // */
 .code-menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0;
     width: 100%;
+    padding-bottom: 3rem;
 }
 
 
@@ -131,29 +136,27 @@
     background-color: #584955;
 }
 
-.code-menu li a{
-    text-decoration: none;
+.code-menu li:hover {
+    cursor: pointer;
+    color: #eee;
 }
-.code-menu li a:visited {
-    color: inherit; 
-}
+
 
 @media(min-width: 64em){
-    .content-container1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
     .component{
+        display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .section-2 h2{
-        padding-left: 8rem ;
-        padding-right: 8rem ;
+        padding-left: 8rem;
+        padding-right: 8rem;
         padding-bottom: 3rem;
     }
 
@@ -164,8 +167,15 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 30rem;
+    }
+
+    .copy-icon {
+        height: 2rem; 
+        background-color: #251622;
+  
     }
 
 }
 
-// CONTENT 2 STYLES
+
