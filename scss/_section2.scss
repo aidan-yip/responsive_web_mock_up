@@ -9,7 +9,10 @@
     border-top-left-radius: $section-border-radius;
     border-top-right-radius: $section-border-radius;
     padding: 1rem 1rem;
+    margin: 0 auto -2rem ;
+    z-index: 4;        //section-3 z-index is 3
 }
+
 
 
 .section-2 h2{
@@ -103,6 +106,7 @@
     align-items: center;
     padding: 0;
     width: 100%;
+    padding-bottom: 3rem;
 }
 
 

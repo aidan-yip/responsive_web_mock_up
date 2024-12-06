@@ -221,6 +221,8 @@ nav {
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
   padding: 1rem 1rem;
+  margin: 0 auto -2rem;
+  z-index: 4;
 }
 
 .section-2 h2 {
@@ -310,6 +312,7 @@ nav {
   align-items: center;
   padding: 0;
   width: 100%;
+  padding-bottom: 3rem;
 }
 
 .code-menu ul {
@@ -533,6 +536,62 @@ section.section-4 {
 .section-4 article {
   position: sticky;
   top: 0;
+}
+
+.section-5 {
+  background-color: #f3f3f3;
+  height: auto;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  padding: 1rem 1rem;
+  margin: 0 auto -2rem;
+  z-index: 4;
+}
+
+.section-5 p {
+  text-align: center;
+}
+
+.section-5 h3, h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.icon-container {
+  display: grid;
+  grid-template-columns: repeat(2, 8rem);
+  gap: 2rem;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 4rem;
+}
+
+.icon-1, .icon-2, .icon-3, .icon-4 {
+  border-radius: 35px;
+  width: 8rem;
+  height: 8rem;
+}
+
+.icon-1 {
+  background-color: #d880d0;
+}
+
+.icon-2 {
+  background-color: #ffc848;
+}
+
+.icon-3 {
+  background-color: #3A2234;
+}
+
+.icon-4 {
+  background-color: #3cdd8c;
+}
+
+.link {
+  margin-top: 2rem;
+  color: #333;
+  text-decoration: none;
 }
 
 .flex_container_sec6 {
