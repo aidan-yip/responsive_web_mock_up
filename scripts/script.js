@@ -4,26 +4,36 @@ const menu = document.querySelector('.code-menu')
 const menuItems = document.querySelectorAll('.code-menu li')
 
 // content sections
-const contentContainers = document.querySelectorAll('.content-container1, .content-container2')
-
-// show content 1 by default
-document.querySelector('.content-container1').style.display = "block"
-
+const contentContainers = document.querySelectorAll('.content-container1, .content-container2, .content-container3, .content-container4')
 
 menuItems.forEach(item => {
-    item.addEventListener('click', ()=> {
-        // remove active-menu class from all menu items
-        menuItems.forEach(i => i.classList.remove('active-menu'))
-        // add active menu to clicked item
-        item.classList.add('active-menu')
-        // get target container for clicked item
-        const target = item.getAttribute('data-target')
-        // hide containers
-        contentContainers.forEach(container => container.style.display = 'none');
-        // show targeted container
-        document.querySelector(`.${target}`).style.display = 'block'
-    }) 
+  item.addEventListener('click', () => {
+    // Remove 'active-menu' class from all menu items
+    menuItems.forEach(i => i.classList.remove('active-menu'))
+
+    // Add 'active-menu' class to the clicked menu item
+    item.classList.add('active-menu')
+
+    // Get the target content container based on the data attribute
+    const targetId = item.getAttribute('data-target')
+
+    // Hide all content containers
+    contentContainers.forEach(container => {
+      container.style.display = 'none'
+    })
+
+    // Show the targeted content container
+    if (targetId) {
+      const targetContainer = document.querySelector(`.${targetId}`)
+      if (targetContainer) {
+        targetContainer.style.display = 'block'
+      }
+    }
+  })
 })
+
+
+
 
 
 
@@ -37,9 +47,6 @@ cardsContainer.style.setProperty('--cards-count', cards.length);
 cardsContainer.style.setProperty('--card-height', `${cards[0].clientHeight}px`);
 
 Array.from(cards).forEach((card, index) => {
-  const offsetTop = 20 + index * 20;
-  card.style.paddingTop = `${offsetTop}px`;
-
   if (index === cards.length - 1) {
     return;
   }
