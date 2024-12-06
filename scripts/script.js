@@ -1,34 +1,37 @@
 // section 2 menu
 // menu buttons
-const menu = document.querySelector('.code-menu')
-const menuItems = document.querySelectorAll('.code-menu li')
+document.addEventListener('DOMContentLoaded', () => {
+  // Menu buttons
+  const menuItems = document.querySelectorAll('.code-menu li')
 
-// content sections
-const contentContainers = document.querySelectorAll('.content-container1, .content-container2, .content-container3, .content-container4')
+  // Content sections
+  const contentContainers = document.querySelectorAll('.content-container1, .content-container2, .content-container3, .content-container4');
 
-menuItems.forEach(item => {
-  item.addEventListener('click', () => {
-    // Remove 'active-menu' class from all menu items
-    menuItems.forEach(i => i.classList.remove('active-menu'))
+  menuItems.forEach(item => {
+      item.addEventListener('click', () => {
+          // Remove 'active-menu' class from all menu items
+          menuItems.forEach(i => i.classList.remove('active-menu'))
 
-    // Add 'active-menu' class to the clicked menu item
-    item.classList.add('active-menu')
+          // Add 'active-menu' class to the clicked menu item
+          item.classList.add('active-menu')
 
-    // Get the target content container based on the data attribute
-    const targetId = item.getAttribute('data-target')
+          // Get the target content container based on the data attribute
+          const targetId = item.getAttribute('data-target')
 
-    // Hide all content containers
-    contentContainers.forEach(container => {
-      container.style.display = 'none'
-    })
+          // Hide all content containers
+          contentContainers.forEach(container => {
+              container.style.display = 'none'
+          });
 
-    // Show the targeted content container
-    if (targetId) {
-      const targetContainer = document.querySelector(`.${targetId}`)
-      if (targetContainer) {
-        targetContainer.style.display = 'block'
-      }
-    }
+          // Show the targeted content container
+          if (targetId) {
+              const targetContainer = document.querySelector(`.${targetId}`)
+              if (targetContainer) {
+                  targetContainer.style.display = 'block'
+                  item.classList.add('active-menu')
+              }
+          }
+      })
   })
 })
 

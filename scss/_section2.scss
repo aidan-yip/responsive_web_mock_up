@@ -128,12 +128,13 @@
     font-family: "Geist";
     border-radius: 20px;
     padding: 0.5rem 1rem;
-    
+    transition: 500ms;
 }
 
-.active-menu {
+.code-menu li.active-menu {
+    background-color: #584955; /* Highlight color */
     box-shadow: 0 1px 1px rgba(254, 254, 254, 0.579);
-    background-color: #584955;
+    color: #fff; /* Adjust text color if needed */
 }
 
 .code-menu li:hover {
