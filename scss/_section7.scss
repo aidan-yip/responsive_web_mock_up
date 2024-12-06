@@ -1,1 +1,62 @@
 @use "_variables" as *;
+@use "_base-styles" as *;
+
+.Sec-7-container {
+  font-family: $main-font;
+  background-color: $pink;
+  height: $height;
+  width: $width;
+  border-radius: $section-border-radius;
+}
+
+.section-7 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-7-text {
+  padding-left: 2rem;
+  font-size: 1rem;
+}
+
+.section-7-heading {
+  padding-left: 2rem;
+}
+// cards stylesbelow
+.testimonial-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 32px;
+  overflow: hidden;
+}
+.testimonial-card-1 {
+  background-color: $pink-white;
+  border-radius: $section-border-radius;
+}
+.testimonial-card-2 {
+  background-color: $pink-white;
+  border-radius: $section-border-radius;
+}
+.testimonial-card-3 {
+  background-color: $pink-white;
+  border-radius: $section-border-radius;
+}
+.testimonial-card-4 {
+  background-color: $pink-white;
+  border-radius: $section-border-radius;
+}
+.t-body {
+  padding: 0.6rem;
+}
+
+.w-full {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 8px;
+  align-items: center;
+}
+.t-list {
+  padding: 2rem;
+}
