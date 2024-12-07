@@ -576,7 +576,12 @@ section.section-4 {
   text-align: center;
 }
 
-.section-5 h3, h2 {
+.section-5 h3 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.section-5 h2 {
   text-align: center;
   padding-bottom: 1rem;
 }
@@ -590,32 +595,18 @@ section.section-4 {
   padding-bottom: 4rem;
 }
 
-.icon-1, .icon-2, .icon-3, .icon-4 {
-  border-radius: 35px;
-  width: 8rem;
-  height: 8rem;
+.icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 0.3rem;
 }
 
-.icon-1 {
-  background-color: #d880d0;
-}
-
-.icon-2 {
-  background-color: #ffc848;
-}
-
-.icon-3 {
-  background-color: #3A2234;
-}
-
-.icon-4 {
-  background-color: #3cdd8c;
-}
-
-.link {
-  margin-top: 2rem;
+#link {
   color: #333;
-  text-decoration: none;
+  font-size: 1rem;
+  border-bottom: 1px solid #000000;
 }
 
 .flex_container_sec6 {
