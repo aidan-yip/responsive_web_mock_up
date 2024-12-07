@@ -1,55 +1,53 @@
 @use "_variables" as *;
 
 
-.section-5 {
-    background-color: $off_white;
-    height: $height;
-    border-top-left-radius: $section-border-radius;
-    border-top-right-radius: $section-border-radius;
-    padding: 1rem 1rem;
-    margin: 0 auto -2rem ;
-    z-index: 4;        //section-3 z-index is 3
-}
-
-.section-5 p{
-    text-align: center;
-}
-
-.section-5 h3, h2{
-    text-align: center;
-    padding-bottom: 1rem;
-} 
-
-.icon-container {
-    display: grid;
-    grid-template-columns: repeat(2, 8rem);
-    gap: 2rem;
-    justify-content: center; 
-    align-content: center;
-    padding-bottom: 4rem;  
-}
-
-.icon-1, .icon-2, .icon-3, .icon-4 {
-    border-radius: 35px;
-    width: 8rem; 
-    height: 8rem; 
-}
-
-.icon-1{
-    background-color: $pink;
-}
-.icon-2{
-    background-color: $yellow;
-}
-.icon-3{
-    background-color: $burgundy;
-}
-.icon-4{
-    background-color: $green;
-}
-
-.link {
-    margin-top: 2rem;
-    color: #333;
-    text-decoration: none;
+  .section-5 {
+      background-color: $off_white;
+      height: $height;
+      border-top-left-radius: $section-border-radius;
+      border-top-right-radius: $section-border-radius;
+      padding: 1rem 1rem;
+      margin: 0 auto -2rem ;
+      z-index: 4;        //section-3 z-index is 3
   }
+  
+  .section-5 p{
+      text-align: center;
+  }
+  
+  .section-5 h3{
+      text-align: center;
+      padding-bottom: 1rem;
+  } 
+  
+  .section-5 h2{
+      text-align: center;
+      padding-bottom: 1rem;
+  } 
+  
+  .icon-container {
+      display: grid;
+      grid-template-columns: repeat(2, 8rem);
+      gap: 2rem;
+      justify-content: center; 
+      align-content: center;
+      padding-bottom: 4rem;  
+  }
+ 
+
+
+
+  .icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0 0.3rem;
+  }
+  
+  
+  #link {
+      color: #333;
+      font-size: 1rem;
+      border-bottom: 1px solid $pure_black;
+    }
