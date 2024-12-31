@@ -578,7 +578,9 @@ section.section-4 {
 
 .section-5 h3 {
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .section-5 h2 {
@@ -595,6 +597,10 @@ section.section-4 {
   padding-bottom: 4rem;
 }
 
+.icon-item {
+  cursor: pointer;
+}
+
 .icon-text {
   display: flex;
   align-items: center;
@@ -609,6 +615,21 @@ section.section-4 {
   border-bottom: 1px solid #000000;
 }
 
+@media (min-width: 64em) {
+  .icon-container {
+    display: flex;
+    gap: 3rem;
+  }
+  .icon-item {
+    width: 14rem;
+  }
+  .section-5 h3 {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
 .flex_container_sec6 {
   display: flex;
   flex-direction: column;

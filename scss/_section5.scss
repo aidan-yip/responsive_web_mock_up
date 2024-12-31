@@ -17,13 +17,16 @@
   
   .section-5 h3{
       text-align: center;
-      padding-bottom: 1rem;
+      padding-bottom: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
   } 
   
   .section-5 h2{
       text-align: center;
       padding-bottom: 1rem;
   } 
+
   
   .icon-container {
       display: grid;
@@ -31,9 +34,13 @@
       gap: 2rem;
       justify-content: center; 
       align-content: center;
-      padding-bottom: 4rem;  
+      padding-bottom: 4rem;
   }
- 
+
+  .icon-item {
+    cursor: pointer;
+  }
+
 
 
 
@@ -50,4 +57,23 @@
       color: #333;
       font-size: 1rem;
       border-bottom: 1px solid $pure_black;
+    }
+
+    @media(min-width: 64em){
+        .icon-container{
+            display: flex;
+            gap: 3rem;
+        }
+
+        .icon-item{
+            width: 14rem;
+        }
+
+        .section-5 h3{
+            text-align: center;
+            padding-bottom: 2rem;
+            padding-left: 10rem;
+            padding-right: 10rem;
+        } 
+
     }
