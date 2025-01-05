@@ -1,5 +1,5 @@
 @use "_variables" as *;
-// @use "_base-styles" as *;
+@use "_base-styles" as *;
 
 .Sec-7-container {
   font-family: $main-font;
@@ -15,6 +15,7 @@
 }
 
 .section-7-text {
+  margin-top: 1.5rem;
   padding-left: 2rem;
   font-size: 1rem;
   margin-bottom: 3rem;
