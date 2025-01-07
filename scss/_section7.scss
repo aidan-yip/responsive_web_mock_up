@@ -53,6 +53,7 @@
   border-radius: $section-border-radius;
 }
 .t-body {
+  font-size: 1.25rem;
   padding: 0.6rem;
 }
 
@@ -62,9 +63,15 @@
   padding: 1rem;
   gap: 8px;
   align-items: center;
+  justify-content: space-between;
 }
 .t-list {
   padding: 2rem;
+}
+.test-img {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 @media (min-width: 64em) {
@@ -106,7 +113,7 @@
     padding-left: 3rem;
   }
   .arrows {
-    position: absolute;
+    position: static;
     left: 72rem;
   }
   .testimonial-card {
@@ -129,7 +136,7 @@
     margin-left: 10px;
     font-weight: bold;
   }
-  .flex.gap-2.xs-mono-body {
+  .flex {
     font-size: smaller;
     margin-top: 5px;
   }
