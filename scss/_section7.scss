@@ -7,6 +7,8 @@
   height: $height;
   width: $width;
   border-radius: $section-border-radius;
+  margin-top: -2rem;
+  margin-bottom: -5rem;
 }
 
 .section-7 {
@@ -15,7 +17,7 @@
 }
 
 .section-7-text {
-  margin-top: 1.5rem;
+  margin-top: 3.5rem;
   padding-left: 2rem;
   font-size: 1rem;
   margin-bottom: 3rem;
@@ -35,6 +37,7 @@
   padding: 1.2rem;
   gap: 32px;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 .testimonial-card-1 {
   background-color: $pink-white;
@@ -72,6 +75,12 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+.arrows {
+  display: none;
+}
+#card-4 {
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 64em) {
@@ -113,8 +122,8 @@
     padding-left: 3rem;
   }
   .arrows {
-    position: static;
-    left: 72rem;
+    display: block;
+    margin-top: 40rem;
   }
   .testimonial-card {
     display: flex;
