@@ -892,6 +892,7 @@ section.footer {
   padding-top: 2rem;
   margin: 0 auto;
   z-index: 8;
+  position: relative;
 }
 
 .footer-text-wrapper {
@@ -913,6 +914,36 @@ section.footer {
   gap: 1rem;
 }
 
+.footer-video-container {
+  height: 12rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-video {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(10%);
+  object-fit: cover;
+  z-index: 9;
+}
+
+.svg-container {
+  position: relative;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+
 @media (min-width: 64em) {
   .footer ul {
     flex-direction: row;
@@ -921,6 +952,9 @@ section.footer {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 4rem 4rem 4rem;
+  }
+  .footer-video-container {
+    height: 32rem;
   }
 }
 .footer li {
