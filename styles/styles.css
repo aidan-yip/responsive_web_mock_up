@@ -650,6 +650,7 @@ section.section-4 {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 .flex_start_sec6 {
