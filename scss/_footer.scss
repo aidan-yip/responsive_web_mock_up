@@ -1,6 +1,11 @@
 @use "_variables" as *;
 @use "_base-styles" as *;
 
+
+.footer_title {
+    mix-blend-mode: difference;
+}
+
 section.footer {
     background-color: $pure_black;
     height: $height;

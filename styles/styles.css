@@ -881,6 +881,10 @@ p.answer_body {
     margin-top: 5px;
   }
 }
+.footer_title {
+  mix-blend-mode: difference;
+}
+
 section.footer {
   background-color: #000000;
   height: auto;
