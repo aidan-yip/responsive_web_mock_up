@@ -880,6 +880,9 @@ p.answer_body {
     font-size: smaller;
     margin-top: 5px;
   }
+  #card-4 {
+    margin-bottom: 0rem;
+  }
 }
 .footer_title {
   mix-blend-mode: difference;
