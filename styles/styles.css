@@ -885,6 +885,7 @@ p.answer_body {
   }
 }
 .footer_title {
+  right: 0.1rem;
   mix-blend-mode: difference;
 }
 
